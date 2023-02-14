@@ -1,0 +1,124 @@
+*{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+h1 ,h2, h3, h4, h5, h6{
+   margin: 0;
+   padding: 0;
+}
+
+.header{
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-container{
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0px;
+  align-items: center;
+}
+
+.nav-container{
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  width: 50%;
+}
+
+.nav-links{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.main-content{
+  width: 100%;
+  box-sizing: border-box;
+  height: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.post-container{
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+}
+
+.page-paddings{
+  padding-left: 100px;
+  padding-right: 100px;
+  box-sizing: border-box;
+}
+
+.post-image{
+  width: 100%;
+  aspect-ratio: 5/4;
+}
+.post-content{
+  padding: 10px;
+}
+
+.post-date-time{
+  display: flex;
+  justify-content: space-between;
+  font-size: small;
+  color: #888;
+}
+
+.post-title{
+  font-size: x-large;
+  padding: 0px;
+  margin: 0px;
+}
+.post-description{
+  font-size: small;
+  font-weight: lighter;
+}
+
+.post-text{
+  border-bottom: 1px solid #aaa;
+}
+
+.clap-container{
+  display: flex;
+  font-size: small;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.post-interactions{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5px;
+  color: #888;
+}
+
+.post-interaction-img{
+  width: 30px;
+}
+
+.post-interaction-img{
+  cursor: pointer;
+}
+
+.footer{
+  width: 100%;
+  margin-top: auto;
+  background-color: black;
+  color:white;
+}
